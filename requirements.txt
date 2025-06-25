@@ -1,0 +1,6 @@
+faiss-cpu
+transformers
+gradio
+sentence-transformers
+google-generativeai
+SpeechRecognition
