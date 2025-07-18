@@ -294,6 +294,13 @@ with gr.Blocks(theme = custom_theme) as demo:
 
     chatbot.like(print_like_dislike, None, None, like_user_message=True)
 
-    gr.Markdown("""<footer style='text-align:center;margin-top:20px;color:#aaa;'>Built using Gradio, Hugging Face & Gemini API</footer>""")
+    gr.Markdown("""
+      <footer style='text-align:center; margin-top:20px; color:#aaa;'>
+          Built using Gradio, Hugging Face & Mistral |
+          <a href="https://github.com/kumardevansh/clinikit" target="_blank" style="color:#aaa; text-decoration:underline;">
+              View on GitHub
+          </a>
+      </footer>
+    """)
 
 demo.launch(share=True, pwa=True)
